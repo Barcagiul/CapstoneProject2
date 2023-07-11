@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1, h2, h3 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.subtitle , p, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head {
+    text-align: center;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot-box {
+    background-color: #e2ba8c;
+    color: white;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+    align-items: end;
+}
+
+.project-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-box {
+        align-items: center;
+    }
+
+    .project-box {
+        align-items: center;
+        order: 1;
+    }
+}
+
